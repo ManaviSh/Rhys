@@ -10,5 +10,5 @@ imshow(B), title('Detected Faces');
 %display the no of facs in a string
 n = size(bbox, 1);
 str_n = num2str(n);
-str = strcat('Number of detected faces are', str_n);
+str = strcat('Number of detected faces are ', str_n);
 disp(str);
